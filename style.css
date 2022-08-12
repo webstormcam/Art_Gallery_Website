@@ -87,3 +87,8 @@ p {
     flex-direction: row;
     text-decoration: none;
 }
+
+.word-mover {
+    position: relative;
+    top: 0.2em;
+}
