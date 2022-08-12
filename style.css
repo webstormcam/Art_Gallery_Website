@@ -55,8 +55,32 @@ p {
 #button {
     display: flex;
     flex-direction: row;
+    margin-top: 1em;
+
 }
 
 #location-words {
     font-family: 'Big Shoulders Display', cursive;
+    padding: 1em;
+    background-color: #151515;
+    color: #fff;
+    letter-spacing: 0.2em;
+
+}
+
+#arrow-Holder {
+    background-color: #D5966C;
+    padding: 1.4em;
+
+}
+
+.arrow {
+    position: relative;
+    top: 0em;
+}
+
+
+.link {
+    display: flex;
+    flex-direction: row;
 }
