@@ -66,6 +66,7 @@ p {
     color: #fff;
     letter-spacing: 0.2em;
     padding-right: 2em;
+    text-decoration: none;
 
 }
 
@@ -84,4 +85,5 @@ p {
 .link {
     display: flex;
     flex-direction: row;
+    text-decoration: none;
 }
