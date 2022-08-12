@@ -13,29 +13,50 @@ header {
     display: grid;
     grid-template-areas: 'image'
         'words';
-    grid-template-rows: 250px 250px;
+    grid-template-rows: auto 500px;
     grid-template-columns: 1fr;
 
 }
 
 #img-holder {
-    background-image: url('imgs/mobile/image-hero@2x.jpg');
-    grid-area: image;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
+    grid-area: image;
+
+
+
+}
+
+.celso {
+    width: 100%;
 }
 
 #top-words-button {
     display: flex;
     flex-direction: column;
     padding: 1em;
+    margin-top: 1em;
 
 }
 
 h1 {
     font-size: 60px;
     font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
+    max-width: 280px;
+    margin-bottom: 0.4em;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+}
+
+#location-words {
     font-family: 'Big Shoulders Display', cursive;
 }
