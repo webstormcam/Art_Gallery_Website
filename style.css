@@ -93,3 +93,11 @@ p {
     position: relative;
     top: 0.2em;
 }
+
+
+@media screen and (min-width:768px) {
+    header {
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 700px;
+    }
+}
