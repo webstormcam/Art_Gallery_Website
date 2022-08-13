@@ -108,7 +108,7 @@ p {
 @media screen and (min-width:768px) {
     header {
         grid-template-columns: 1.3fr 1fr;
-        grid-template-rows: 700px;
+        grid-template-rows: auto;
 
     }
 
