@@ -119,8 +119,8 @@ p {
     }
 
     .tops-holder {
-        position: relative;
-        top: 4em;
+        position: absolute;
+        top: 8em;
         left: -4em;
 
     }
@@ -136,5 +136,20 @@ p {
 
     source {
         z-index: -1;
+    }
+
+    h1 {
+        font-size: 70px;
+        max-width: 330px;
+        margin-bottom: 0.7em;
+    }
+
+    .tops-holder p {
+        max-width: 340px;
+
+    }
+
+    #button {
+        margin-top: 3em;
     }
 }
