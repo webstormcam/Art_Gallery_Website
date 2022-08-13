@@ -157,3 +157,29 @@ p {
         margin-top: 3em;
     }
 }
+
+@media screen and (min-width:1024px) {
+    header {
+
+        max-width: 900px;
+
+    }
+
+    h1 {
+        font-size: 80px;
+        max-width: 375px;
+    }
+
+    .tops-holder {
+        top: 10em;
+    }
+
+    .tops-holder p {
+        max-width: 380px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+}
