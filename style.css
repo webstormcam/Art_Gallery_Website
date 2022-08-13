@@ -16,11 +16,14 @@ header {
     grid-template-rows: auto 500px;
     grid-template-columns: 1fr;
 
+
 }
 
 #img-holder {
 
     grid-area: image;
+    z-index: -1;
+
 
 
 
@@ -28,6 +31,7 @@ header {
 
 .celso {
     width: 100%;
+    z-index: -1;
 }
 
 #top-words-button {
@@ -105,13 +109,32 @@ p {
     header {
         grid-template-columns: 1.3fr 1fr;
         grid-template-rows: 700px;
+
     }
 
     #top-words-button {
         position: relative;
+
+        z-index: 1000;
     }
 
     .tops-holder {
-        position: absolute;
+        position: relative;
+        top: 4em;
+        left: -4em;
+
+    }
+
+    #img-holder {
+        position: relative;
+        z-index: 1;
+    }
+
+    picture {
+        z-index: -1;
+    }
+
+    source {
+        z-index: -1;
     }
 }
