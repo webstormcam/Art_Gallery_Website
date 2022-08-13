@@ -5,8 +5,10 @@
 }
 
 body {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -15,6 +17,7 @@ header {
         'words';
     grid-template-rows: auto 500px;
     grid-template-columns: 1fr;
+    max-width: 500px;
 
 
 }
@@ -109,6 +112,7 @@ p {
     header {
         grid-template-columns: 1.3fr 1fr;
         grid-template-rows: auto;
+        max-width: 800px;
 
     }
 
