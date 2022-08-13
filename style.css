@@ -38,6 +38,12 @@ header {
 
 }
 
+.tops-holder {
+    display: flex;
+    flex-direction: column;
+
+}
+
 h1 {
     font-size: 60px;
     font-weight: bold;
@@ -99,5 +105,13 @@ p {
     header {
         grid-template-columns: 1.3fr 1fr;
         grid-template-rows: 700px;
+    }
+
+    #top-words-button {
+        position: relative;
+    }
+
+    .tops-holder {
+        position: absolute;
     }
 }
