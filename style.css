@@ -30,9 +30,13 @@ main {
 #main-items {
     display: grid;
     grid-template-areas: 'knick-knacks'
-        'day';
+        'day'
+        'muse-long'
+        'muse-short'
+        'inspired';
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    row-gap: 15px;
+
     max-width: 500px;
     padding: 1em;
 }
@@ -133,18 +137,22 @@ p {
 
 .day {
     grid-area: day;
+    padding: 1em;
+    padding-left: 0em;
+}
+
+.day-p {
+    margin-bottom: 1em;
 }
 
 h2 {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 50px;
     max-width: 330px;
-}
-
-.first_H2 {
-    margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+
+
 
 source {
     height: none;
@@ -161,6 +169,26 @@ source {
 .celso_big {
     display: none;
 }
+
+.muse-long {
+    grid-area: muse-long;
+    width: 100%;
+}
+
+.muse-short {
+    width: 100%;
+    grid-area: muse-short;
+}
+
+.inspired {
+    grid-area: inspired;
+    background-color: #151515;
+    color: #fff;
+    width: 100%;
+    padding: 2em;
+}
+
+
 
 
 @media screen and (min-width:768px) {
@@ -238,6 +266,12 @@ source {
     .celso_big {
         display: none;
     }
+
+    .kk-small {
+        display: none;
+    }
+
+
 }
 
 @media screen and (min-width:1024px) {
