@@ -27,6 +27,15 @@ main {
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    color: #fff;
+    padding: 2em;
+    padding-left: 3em;
+}
+
 #main-items {
     display: grid;
     grid-template-areas: 'knick-knacks'
@@ -182,6 +191,23 @@ h2 {
     color: #fff;
     width: 100%;
     padding: 2em;
+}
+
+.last_H2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+
+}
+
+.socials {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+footer p {
+    font-size: 1em;
 }
 
 
