@@ -146,14 +146,16 @@ h2 {
         grid-template-columns: 1.3fr 1fr;
         grid-template-rows: auto;
         max-width: 800px;
+        margin-bottom: 120px;
 
     }
 
     main {
-        grid-template-areas: 'knick-knacks'
-            'day';
+        grid-template-areas: 'day''day''knick-knacks''knick-knacks';
+        grid-template-columns: 1fr 1.5fr;
         grid-template-rows: auto;
         max-width: 689px;
+        padding: 0em;
     }
 
     #top-words-button {
@@ -196,12 +198,22 @@ h2 {
     #button {
         margin-top: 3em;
     }
+
+    .day-p {
+        width: 230px;
+    }
 }
 
 @media screen and (min-width:1024px) {
     header {
 
         max-width: 900px;
+
+    }
+
+    main {
+
+        max-width: 800px;
 
     }
 
@@ -236,6 +248,14 @@ h2 {
         max-width: 1440px;
 
 
+    }
+
+    main {
+        grid-template-areas: 'day''day''knick-knacks''knick-knacks';
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: auto;
+        max-width: 1110px;
+        padding: 0em;
     }
 
     #blank {
