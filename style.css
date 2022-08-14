@@ -24,7 +24,7 @@ header {
 
 #img-holder {
 
-    grid-area: image;
+
     z-index: -1;
 
 
@@ -107,6 +107,10 @@ p {
     top: 0.2em;
 }
 
+#blank {
+    display: none;
+}
+
 
 @media screen and (min-width:768px) {
     header {
@@ -182,4 +186,26 @@ p {
         font-size: 20px;
     }
 
+}
+
+
+@media screen and (min-width:1300px) {
+    header {
+        display: grid;
+        grid-template-areas: 'blank'
+            'image''words';
+
+        grid-template-columns: 1.1fr 1.2fr 1fr;
+        grid-template-rows: auto;
+        max-width: 1500px;
+
+
+    }
+
+    #blank {
+        display: block;
+        grid-area: blank;
+        background-color: #151515;
+
+    }
 }
