@@ -197,7 +197,7 @@ p {
 
         grid-template-columns: 1.2fr 1.5fr 1fr;
         grid-template-rows: auto;
-        max-width: 1350px;
+        max-width: 1440px;
 
 
     }
@@ -214,7 +214,11 @@ p {
     }
 
     .tops-holder {
-        top: 11em;
+        top: 12em;
+    }
+
+    .tops-holder p {
+        max-width: 350px;
     }
 
     p {
