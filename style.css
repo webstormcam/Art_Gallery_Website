@@ -214,6 +214,7 @@ h2 {
     main {
 
         max-width: 800px;
+        width: 800px;
 
     }
 
@@ -232,6 +233,14 @@ h2 {
 
     p {
         font-size: 20px;
+    }
+
+    .first_H2 {
+        max-width: 250px;
+    }
+
+    .day-p {
+        width: 250px;
     }
 
 }
