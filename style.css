@@ -195,9 +195,9 @@ p {
         grid-template-areas: 'blank'
             'image''words';
 
-        grid-template-columns: 1.1fr 1.2fr 1fr;
+        grid-template-columns: 1.2fr 1.5fr 1fr;
         grid-template-rows: auto;
-        max-width: 1500px;
+        max-width: 1350px;
 
 
     }
@@ -207,5 +207,17 @@ p {
         grid-area: blank;
         background-color: #151515;
 
+    }
+
+    .small {
+        display: none
+    }
+
+    .tops-holder {
+        top: 11em;
+    }
+
+    p {
+        font-size: 22px;
     }
 }
