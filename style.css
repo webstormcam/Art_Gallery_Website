@@ -26,7 +26,7 @@ main {
     grid-template-areas: 'knick-knacks'
         'day';
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto;
     max-width: 500px;
     padding: 1em;
 }
@@ -129,6 +129,17 @@ p {
     grid-area: day;
 }
 
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    max-width: 330px;
+}
+
+.first_H2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 
 @media screen and (min-width:768px) {
     header {
@@ -136,6 +147,13 @@ p {
         grid-template-rows: auto;
         max-width: 800px;
 
+    }
+
+    main {
+        grid-template-areas: 'knick-knacks'
+            'day';
+        grid-template-rows: auto;
+        max-width: 689px;
     }
 
     #top-words-button {
