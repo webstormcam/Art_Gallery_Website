@@ -41,7 +41,7 @@ main {
 
 
     z-index: -1;
-
+    grid-area: image;
 
 
 
@@ -146,6 +146,22 @@ h2 {
     margin-bottom: 0.5em;
 }
 
+source {
+    height: none;
+}
+
+.ceslo_small {
+    display: block;
+}
+
+.celso_medium {
+    display: none;
+}
+
+.celso_big {
+    display: none;
+}
+
 
 @media screen and (min-width:768px) {
     header {
@@ -209,6 +225,18 @@ h2 {
 
     .day-p {
         width: 230px;
+    }
+
+    .celso_small {
+        display: none;
+    }
+
+    .celso_medium {
+        display: block;
+    }
+
+    .celso_big {
+        display: none;
     }
 }
 
@@ -338,5 +366,17 @@ h2 {
         position: relative;
         left: 6.5em;
         top: 2em;
+    }
+
+    .celso_small {
+        display: none;
+    }
+
+    .celso_medium {
+        display: none;
+    }
+
+    .celso_big {
+        display: block;
     }
 }
