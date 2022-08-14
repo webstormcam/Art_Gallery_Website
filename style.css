@@ -225,6 +225,7 @@ p {
         font-size: 96px;
         position: absolute;
         left: 2em;
+        top: 2.1em;
         z-index: 100;
     }
 
