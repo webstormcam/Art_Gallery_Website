@@ -104,7 +104,7 @@ p {
 
 .word-mover {
     position: relative;
-    top: 0.2em;
+    top: 0.1em;
 }
 
 #blank {
@@ -206,11 +206,23 @@ p {
         display: block;
         grid-area: blank;
         background-color: #151515;
+        position: relative;
 
     }
 
     .small {
         display: none
+    }
+
+    .big {
+        display: block;
+        color: #ffffff;
+        mix-blend-mode: difference;
+        font-size: 96px;
+        width: 400px;
+        position: absolute;
+        left: 4em;
+        z-index: 100;
     }
 
     .tops-holder {
