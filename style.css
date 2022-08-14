@@ -214,14 +214,17 @@ p {
         display: none
     }
 
+    h1 {
+        max-width: 700px;
+    }
+
     .big {
         display: block;
         color: #ffffff;
         mix-blend-mode: difference;
         font-size: 96px;
-        width: 400px;
         position: absolute;
-        left: 4em;
+        left: 2em;
         z-index: 100;
     }
 
