@@ -226,6 +226,7 @@ p {
         position: absolute;
         left: 2em;
         top: 2.1em;
+        width: 450px;
         z-index: 100;
     }
 
