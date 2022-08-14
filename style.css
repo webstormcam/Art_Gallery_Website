@@ -34,6 +34,7 @@ footer {
     color: #fff;
     padding: 2em;
     padding-left: 3em;
+    max-width: 500px;
 }
 
 #main-items {
@@ -208,6 +209,11 @@ h2 {
 
 footer p {
     font-size: 1em;
+}
+
+.social:hover {
+    cursor: pointer;
+    filter: invert(60%) sepia(64%) saturate(303%) hue-rotate(341deg) brightness(97%) contrast(84%);
 }
 
 
