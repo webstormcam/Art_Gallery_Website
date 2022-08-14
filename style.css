@@ -15,11 +15,20 @@ header {
     display: grid;
     grid-template-areas: 'image'
         'words';
-    grid-template-rows: auto 500px;
+    grid-template-rows: auto 475px;
     grid-template-columns: 1fr;
     max-width: 500px;
 
+}
 
+main {
+    display: grid;
+    grid-template-areas: 'knick-knacks'
+        'day';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 500px;
+    padding: 1em;
 }
 
 #img-holder {
@@ -109,6 +118,15 @@ p {
 
 #blank {
     display: none;
+}
+
+.knick-knacks {
+    grid-area: knick-knacks;
+    width: 100%;
+}
+
+.day {
+    grid-area: day;
 }
 
 
