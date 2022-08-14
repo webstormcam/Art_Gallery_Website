@@ -22,6 +22,12 @@ header {
 }
 
 main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#main-items {
     display: grid;
     grid-template-areas: 'knick-knacks'
         'day';
@@ -150,7 +156,9 @@ h2 {
 
     }
 
-    main {
+
+
+    #main-items {
         grid-template-areas: 'day''day''knick-knacks''knick-knacks';
         grid-template-columns: 1fr 1.5fr;
         grid-template-rows: auto;
@@ -211,11 +219,11 @@ h2 {
 
     }
 
-    main {
 
+
+    #main-items {
         max-width: 800px;
         width: 800px;
-
     }
 
     h1 {
@@ -259,11 +267,14 @@ h2 {
 
     }
 
-    main {
+
+
+    #main-items {
         grid-template-areas: 'day''day''knick-knacks''knick-knacks';
-        grid-template-columns: 1fr 1.5fr;
+        grid-template-columns: 1fr 1.1fr;
         grid-template-rows: auto;
-        max-width: 1110px;
+        max-width: 1250px;
+        width: 90%;
         padding: 0em;
     }
 
@@ -305,5 +316,27 @@ h2 {
 
     p {
         font-size: 22px;
+    }
+
+    .day-p {
+        width: 350px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    .first_H2 {
+        max-width: 300px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .day {
+        position: relative;
+        left: 6.5em;
+        top: 2em;
     }
 }
