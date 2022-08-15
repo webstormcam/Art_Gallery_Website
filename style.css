@@ -264,7 +264,7 @@ footer p {
     .tops-holder {
         position: absolute;
         top: 8em;
-        left: -4em;
+        left: -3em;
 
     }
 
@@ -376,8 +376,8 @@ footer p {
 
 
     #main-items {
-        max-width: 800px;
-        width: 800px;
+        max-width: 790px;
+        width: 790px;
     }
 
     h1 {
@@ -403,6 +403,10 @@ footer p {
 
     .day-p {
         width: 250px;
+    }
+
+    .kk-medium {
+        width: 90%;
     }
 
 }
