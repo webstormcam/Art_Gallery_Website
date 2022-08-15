@@ -375,10 +375,9 @@ footer p {
 @media screen and (min-width:1300px) {
     header {
         display: grid;
-        grid-template-areas: 'blank'
-            'image''words';
+        grid-template-areas: 'blank images words';
 
-        grid-template-columns: 1.2fr 1.5fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         max-width: 1440px;
 
