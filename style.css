@@ -217,6 +217,10 @@ footer p {
     filter: invert(60%) sepia(64%) saturate(303%) hue-rotate(341deg) brightness(97%) contrast(84%);
 }
 
+.kk-medium {
+    display: none;
+}
+
 
 
 
@@ -232,9 +236,11 @@ footer p {
 
 
     #main-items {
-        grid-template-areas: 'day''day''knick-knacks''knick-knacks';
-        grid-template-columns: 1fr 1.5fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
+        grid-template-areas: 'day  knick-knacks knick-knacks'
+            'muse-long muse-long  muse-short '
+            'muse-long muse-long inspired';
         max-width: 689px;
         padding: 0em;
     }
@@ -296,8 +302,23 @@ footer p {
         display: none;
     }
 
+    .knick-knacks {
+        width: auto;
+    }
+
     .kk-small {
         display: none;
+    }
+
+    .kk-medium {
+        display: block;
+        align-self: end;
+    }
+
+    footer {
+
+        max-width: 800px;
+        flex-direction: row;
     }
 
 
