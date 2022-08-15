@@ -251,6 +251,7 @@ footer p {
             'muse-long muse-long inspired inspired';
         max-width: 689px;
         column-gap: 10px;
+        row-gap: 10px;
         padding: 0em;
     }
 
