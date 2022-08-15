@@ -177,7 +177,7 @@ h2 {
     display: none;
 }
 
-.muse-long {
+.muse {
     grid-area: muse-long;
     width: 100%;
 }
@@ -218,6 +218,14 @@ footer p {
 }
 
 .kk-medium {
+    display: none;
+}
+
+.muse-long-medium {
+    display: none;
+}
+
+.muse-short-medium {
     display: none;
 }
 
@@ -317,12 +325,25 @@ footer p {
         align-self: end;
     }
 
-    .muse-short {
+    .muse-short-small {
         display: none;
     }
 
-    .muse-long {
+    .muse-short-medium {
         display: block;
+    }
+
+    .muse-long-small {
+        display: none;
+    }
+
+    .muse-long-medium {
+        display: block;
+    }
+
+    .inspired {
+        padding-top: 4.5em;
+        padding-bottom: 4.5em;
     }
 
     .day {
@@ -335,6 +356,8 @@ footer p {
         max-width: 800px;
         flex-direction: row;
     }
+
+
 
 
 }
