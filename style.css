@@ -242,6 +242,7 @@ footer p {
             'muse-long muse-long  muse-short muse-short '
             'muse-long muse-long inspired inspired';
         max-width: 689px;
+        column-gap: 10px;
         padding: 0em;
     }
 
@@ -314,6 +315,14 @@ footer p {
     .kk-medium {
         display: block;
         align-self: end;
+    }
+
+    .muse-short {
+        display: none;
+    }
+
+    .muse-long {
+        display: block;
     }
 
     .day {
