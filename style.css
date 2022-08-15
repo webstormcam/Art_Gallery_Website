@@ -332,6 +332,8 @@ footer p {
 
     .muse-short-medium {
         display: block;
+        height: 100%;
+
     }
 
     .muse-long-small {
@@ -340,6 +342,7 @@ footer p {
 
     .muse-long-medium {
         display: block;
+
     }
 
     .inspired {
