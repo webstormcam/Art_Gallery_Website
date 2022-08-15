@@ -236,11 +236,11 @@ footer p {
 
 
     #main-items {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
-        grid-template-areas: 'day  knick-knacks knick-knacks'
-            'muse-long muse-long  muse-short '
-            'muse-long muse-long inspired';
+        grid-template-areas: 'day  knick-knacks knick-knacks knick-knacks'
+            'muse-long muse-long  muse-short muse-short '
+            'muse-long muse-long inspired inspired';
         max-width: 689px;
         padding: 0em;
     }
@@ -304,6 +304,7 @@ footer p {
 
     .knick-knacks {
         width: auto;
+        justify-self: end;
     }
 
     .kk-small {
@@ -313,6 +314,11 @@ footer p {
     .kk-medium {
         display: block;
         align-self: end;
+    }
+
+    .day {
+        position: relative;
+        top: 1em;
     }
 
     footer {
