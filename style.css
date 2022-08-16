@@ -356,9 +356,19 @@ footer p {
     }
 
     footer {
-
+        width: 100%;
         max-width: 800px;
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer p {
+        width: 281px;
+    }
+
+    .socials {
+
+        margin-top: 0em;
     }
 
 
@@ -407,6 +417,11 @@ footer p {
 
     .kk-medium {
         width: 90%;
+    }
+
+    footer {
+        width: 100%;
+        max-width: 900px;
     }
 
 }
