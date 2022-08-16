@@ -427,7 +427,7 @@ footer p {
 }
 
 
-@media screen and (min-width:1300px) {
+/* @media screen and (min-width:1300px) {
     header {
         display: grid;
         grid-template-areas: 'blank images words';
@@ -523,4 +523,4 @@ footer p {
     .celso_big {
         display: block;
     }
-}
+} */
