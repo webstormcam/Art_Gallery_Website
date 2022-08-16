@@ -427,10 +427,10 @@ footer p {
 }
 
 
-/* @media screen and (min-width:1300px) {
+@media screen and (min-width:1300px) {
     header {
         display: grid;
-        grid-template-areas: 'blank images words';
+        grid-template-areas: 'blank image words';
 
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
@@ -439,16 +439,20 @@ footer p {
 
     }
 
+    #top-words-button {
+        grid-area: words;
+    }
 
 
-    #main-items {
+
+    /* #main-items {
         grid-template-areas: 'day''day''knick-knacks''knick-knacks';
         grid-template-columns: 1fr 1.1fr;
         grid-template-rows: auto;
         max-width: 1250px;
         width: 90%;
         padding: 0em;
-    }
+    } */
 
     #blank {
         display: block;
@@ -523,4 +527,4 @@ footer p {
     .celso_big {
         display: block;
     }
-} */
+}
