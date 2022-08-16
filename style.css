@@ -432,9 +432,10 @@ footer p {
         display: grid;
         grid-template-areas: 'blank image words';
 
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: minmax(auto, 450px) minmax(auto, 540px) minmax(auto, 450px);
         grid-template-rows: auto;
         max-width: 1440px;
+        margin-bottom: 10em;
 
 
     }
