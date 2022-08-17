@@ -376,6 +376,7 @@ footer p {
     footer {
         width: 100%;
         max-width: 800px;
+        margin-top: 10em;
 
     }
 
@@ -392,6 +393,8 @@ footer p {
 
         margin-top: 0em;
     }
+
+
 
 
 
@@ -469,11 +472,13 @@ footer p {
 
 
     footer {
-        width: 86%;
+        width: 100%;
         max-width: none;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 4em 6em;
+
 
     }
 
@@ -612,6 +617,13 @@ footer p {
 
     .secret {
         display: block;
+    }
+
+    footer p {
+        width: 41%;
+        position: relative;
+        left: -6em;
+        font-size: 1.2em;
     }
 
 
