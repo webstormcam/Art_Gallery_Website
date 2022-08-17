@@ -407,6 +407,11 @@ footer p {
         max-width: 689px;
     }
 
+    .socials {
+        position: relative;
+        left: -1em;
+    }
+
 
 
 
@@ -638,6 +643,10 @@ footer p {
         position: relative;
         left: -6em;
         font-size: 1.2em;
+    }
+
+    .socials {
+        left: 0em;
     }
 
 
