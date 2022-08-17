@@ -504,7 +504,7 @@ footer p {
         mix-blend-mode: difference;
         font-size: 96px;
         position: absolute;
-        left: 1.8em;
+        left: 1.4em;
         top: 2.1em;
         width: 450px;
         z-index: 100;
@@ -578,6 +578,12 @@ footer p {
 
     .muse-long-long {
         display: block;
+        height: 100%;
+    }
+
+    .inspired {
+        padding-left: 3em;
+        padding-right: 3em;
     }
 
 
