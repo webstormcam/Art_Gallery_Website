@@ -394,6 +394,19 @@ footer p {
         margin-top: 0em;
     }
 
+    footer {
+        width: 100%;
+        max-width: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-items {
+        width: 689px;
+        max-width: 689px;
+    }
+
 
 
 
@@ -444,10 +457,14 @@ footer p {
         width: 90%;
     }
 
-    footer {
-        width: 100%;
-        max-width: 900px;
+    .footer-items {
+        width: 790px;
+        max-width: 790px;
     }
+
+
+
+
 
 
 
@@ -473,10 +490,7 @@ footer p {
 
     footer {
         width: 100%;
-        max-width: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
         padding: 4em 6em;
 
 
