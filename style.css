@@ -38,6 +38,12 @@ footer {
     margin-top: 5em;
 }
 
+.footer-items {
+    display: flex;
+    flex-direction: column;
+}
+
+
 #main-items {
     display: grid;
     grid-template-areas: 'knick-knacks'
@@ -370,6 +376,10 @@ footer p {
     footer {
         width: 100%;
         max-width: 800px;
+
+    }
+
+    .footer-items {
         flex-direction: row;
         justify-content: space-between;
     }
@@ -459,8 +469,17 @@ footer p {
 
 
     footer {
-        width: 100%;
-        max-width: 1440px;
+        width: 86%;
+        max-width: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer-items {
+        max-width: 1120px;
+        width: 90%;
     }
 
     #top-words-button {
@@ -584,6 +603,15 @@ footer p {
     .inspired {
         padding-left: 3em;
 
+    }
+
+    .last_H2 {
+        font-size: 2em;
+        width: 240px;
+    }
+
+    .secret {
+        display: block;
     }
 
 
