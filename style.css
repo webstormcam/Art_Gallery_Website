@@ -475,7 +475,7 @@ footer p {
         grid-template-areas: 'day  knick-knacks knick-knacks knick-knacks'
             'muse-long muse-long  muse-short muse-short '
             'muse-long muse-long inspired inspired';
-        max-width: 1200px;
+        max-width: 1120px;
         width: 90%;
         row-gap: 30px;
         column-gap: 30px;
@@ -579,4 +579,6 @@ footer p {
     .muse-long-long {
         display: block;
     }
+
+    .inspired {}
 }
