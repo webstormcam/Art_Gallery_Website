@@ -233,6 +233,14 @@ footer p {
     display: none;
 }
 
+.muse-short-long {
+    display: none;
+}
+
+.muse-long-long {
+    display: none;
+}
+
 
 
 
@@ -428,6 +436,8 @@ footer p {
         max-width: 900px;
     }
 
+
+
 }
 
 
@@ -530,7 +540,7 @@ footer p {
 
     .day {
         position: relative;
-        left: 2em;
+        left: 0em;
         top: 2em;
     }
 
@@ -551,6 +561,22 @@ footer p {
     }
 
     .kk-large {
+        display: block;
+    }
+
+    .muse-short-medium {
+        display: none;
+    }
+
+    .muse-short-long {
+        display: block;
+    }
+
+    .muse-long-medium {
+        display: none;
+    }
+
+    .muse-long-long {
         display: block;
     }
 }
