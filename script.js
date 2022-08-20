@@ -21,7 +21,7 @@ var map = L.map('map', {
     zoom: 16,
     zoomControl:false,
     scrollWheelZoom: false,
-    dragging:false
+    // dragging:false
 });
 
 var myIcon = L.icon({
