@@ -253,6 +253,13 @@ footer p {
     z-index: 1;
 }
 
+#button-map {
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+}
+
 
 
 

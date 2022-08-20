@@ -19,7 +19,9 @@ location_link.addEventListener('mouseout',function(){
 var map = L.map('map', {
     center: [41.478, -71.31],
     zoom: 16,
-    scrollWheelZoom: false
+    zoomControl:false,
+    scrollWheelZoom: false,
+    dragging:false
 });
 
 var myIcon = L.icon({
