@@ -16,23 +16,25 @@ location_link.addEventListener('mouseout',function(){
 
 
 
-let map = L.map('map').setView([41.4782999, -71.3143662], 16);
+var map = L.map('map', {
+    center: [41.478, -71.31],
+    zoom: 16,
+    scrollWheelZoom: false
+});
 
 var myIcon = L.icon({
-    iconUrl: 'imgs/icon-location.svg',
+    iconUrl: 'imgs/icon-location.png',
     iconSize: [66, 88],
     iconAnchor: [22, 94],
     popupAnchor: [-3, -76],
-    shadowUrl: 'my-icon-shadow.png',
-    shadowSize: [68, 95],
-    shadowAnchor: [22, 94]
+ 
 });
 
-let marker = L.marker([41.4782999, -71.3143662],{icon:myIcon}).addTo(map);
+let marker = L.marker([41.4789533, -71.3108047],{icon:myIcon}).addTo(map);
 
 let tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 20,
-  
+
     attribution: '© OpenStreetMap'
     
 }).addTo(map);
