@@ -260,6 +260,26 @@ footer p {
     top: 0;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#location {
+    width: 100%;
+    background-color: #151515;
+    padding: 2em;
+}
+
+#map-end {
+    width: 100%;
+    max-width: none;
+    background-color: #D5966C;
+    margin-top: 0em;
+    padding: 2em;
+    color: #151515;
+}
 
 
 
