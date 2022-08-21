@@ -314,6 +314,13 @@ footer p {
     margin-bottom: 1em;
 }
 
+.map-button-words {
+    order: 2;
+}
+
+.map-arrow {
+    order: 1;
+}
 
 
 
@@ -496,6 +503,12 @@ footer p {
 
     #map {
         height: 600px;
+
+    }
+
+    #button-map {
+
+        left: 2em;
 
     }
 
