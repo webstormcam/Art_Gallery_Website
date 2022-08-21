@@ -282,6 +282,28 @@ footer p {
 }
 
 
+#location-h1 {
+    color: #fff;
+    font-family: 'Big Shoulders Display', cursive;
+    max-width: none;
+    font-size: 50px;
+}
+
+.street-info h2 {
+    color: #D5966C;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 32px;
+
+}
+
+.street-info p {
+    color: #fff;
+}
+
+.united-states {
+    margin-bottom: 1em;
+}
+
 
 
 
