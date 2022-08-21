@@ -494,6 +494,11 @@ footer p {
         margin-right: 3em;
     }
 
+    #map {
+        height: 600px;
+
+    }
+
 
 
 
