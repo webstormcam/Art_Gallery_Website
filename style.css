@@ -632,9 +632,7 @@ footer p {
 
     }
 
-    .tops-holder {
-        left: -4em;
-    }
+
 
     .small {
         display: none
@@ -776,4 +774,11 @@ footer p {
 
 
 
+}
+
+
+@media screen and (min-width:1440px) {
+    .tops-holder {
+        left: -4em;
+    }
 }
