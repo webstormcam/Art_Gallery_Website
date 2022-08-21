@@ -223,6 +223,10 @@ footer p {
     filter: invert(40%) sepia(720%) saturate(299%) hue-rotate(335deg) brightness(88%) contrast(87%);
 }
 
+.social-map:hover {
+    filter: invert(100%) sepia(0%) saturate(7%) hue-rotate(187deg) brightness(104%) contrast(103%);
+}
+
 .kk-medium {
     display: none;
 }
