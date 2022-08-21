@@ -632,6 +632,10 @@ footer p {
 
     }
 
+    .tops-holder {
+        left: -4em;
+    }
+
     .small {
         display: none
     }
